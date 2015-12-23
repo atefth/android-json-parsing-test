@@ -79,7 +79,7 @@ $app->middleware([
 |
 */
 
-$app->register(App\Providers\CatchAllOptionsRequestProvider::class);
+$app->register(App\Providers\CatchAllOptionsRequestsProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 
 /*
